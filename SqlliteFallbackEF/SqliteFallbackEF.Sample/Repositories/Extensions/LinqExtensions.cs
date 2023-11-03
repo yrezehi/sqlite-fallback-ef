@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Core.Repositories.Extensions
+namespace SqliteFallbackEF.Sample.Repositories.Extensions
 {
     public static class LinqExtensions
     {

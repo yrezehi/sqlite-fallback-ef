@@ -1,7 +1,7 @@
-﻿using Core.Repositories.Abstracts.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using SqliteFallbackEF.Sample.Repositories.Abstracts.Interfaces;
 
-namespace Core.Repositories.Abstracts
+namespace SqliteFallbackEF.Sample.Repositories.Abstracts
 {
     public class Repository<T> : IRepository<T> where T : class
     {

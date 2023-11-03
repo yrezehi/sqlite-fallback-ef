@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Core.Repositories.Abstracts.Interfaces
+namespace SqliteFallbackEF.Sample.Repositories.Abstracts.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
