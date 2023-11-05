@@ -1,7 +1,8 @@
-﻿using Core.Repositories.Abstracts.Interfaces;
+﻿using Core.Repositories.Abstracts;
 using Microsoft.EntityFrameworkCore;
+using SqliteFallbackEF.Sample.Repositories.Abstracts.Interfaces;
 
-namespace Core.Repositories.Abstracts
+namespace SqliteFallbackEF.Sample.Repositories.Abstracts
 {
     public class UnitOfWork<TContext> : IUnitOfWork<TContext>, IUnitOfWork where TContext : DbContext, IDisposable
     {

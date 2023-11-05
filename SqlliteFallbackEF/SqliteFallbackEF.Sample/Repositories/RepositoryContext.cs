@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Core.Repositories
+namespace SqliteFallbackEF.Sample.Repositories
 {
     public class RepositoryContext : DbContext
     {
