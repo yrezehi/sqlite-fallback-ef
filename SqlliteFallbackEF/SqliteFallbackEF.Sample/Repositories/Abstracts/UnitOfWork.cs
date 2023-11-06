@@ -1,5 +1,4 @@
-﻿using Core.Repositories.Abstracts;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SqliteFallbackEF.Sample.Repositories.Abstracts.Interfaces;
 
 namespace SqliteFallbackEF.Sample.Repositories.Abstracts
