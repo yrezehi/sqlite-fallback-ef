@@ -5,7 +5,7 @@ using SqliteFallbackEF.Sample.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<RepositoryContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"))
+    options.UseInMemoryDatabase("Default")
 );
 
 // Add services to the container.
